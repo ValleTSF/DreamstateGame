@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1998435650709315168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998435650709315169}
+  - component: {fileID: 1998435650709315230}
+  m_Layer: 0
+  m_Name: LightningParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1998435650709315169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998435650709315168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2, y: 41.043888, z: -0.68867207}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1998435650709315230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998435650709315168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a1a649aeb11324ba31cacadb61a689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightningBolt1: {fileID: 5612389642385173657, guid: 95e4a468cf3a97447aebd9b001c122e7,
+    type: 3}
+  lightningBolt2: {fileID: 816914651808832759, guid: 737968404156bbf4aa7fbfe8a6b217bb,
+    type: 3}
+  lightningBolt3: {fileID: 2646065976727856978, guid: 499a7fe7fff6e7b4e8c8a5ca641e4308,
+    type: 3}
+  lightningBolt4: {fileID: 2306467979536095282, guid: 29e2537ffe8854941a484479b91580a8,
+    type: 3}
+  lightningBolt5: {fileID: 1920547084114661694, guid: 4d7e63805d5aecc4e93d7069772aec07,
+    type: 3}
+  lightningBolt6: {fileID: 3715366436264594928, guid: 1eedea089075451468cd3f6ff8518411,
+    type: 3}
+  timeBetweenBolts: 2
+  destructTime: 10

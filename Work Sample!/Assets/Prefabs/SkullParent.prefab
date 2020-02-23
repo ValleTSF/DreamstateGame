@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &617448587779909012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212309918299414729}
+  - component: {fileID: 2900958980520650220}
+  m_Layer: 0
+  m_Name: SkullParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &212309918299414729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617448587779909012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.996665, y: 38.947277, z: -0.96875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2900958980520650220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617448587779909012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b2735899b2bfc49acf9249b8c476b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skullEnemy1: {fileID: 1936811315785537494, guid: 5f86964dcf71775459dddcd353711dc5,
+    type: 3}
+  skullEnemy2: {fileID: 707275209654050976, guid: f8618794aa30c7340a99d55a3e6cdb3e,
+    type: 3}
+  skullEnemy3: {fileID: 6961085802196633027, guid: 3dba268eea1412b469459814da2f55fa,
+    type: 3}
+  timeBetweenSkulls: 3
+  destructTime: 11
